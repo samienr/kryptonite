@@ -1,4 +1,4 @@
-23642075028333679
+23645517644365677
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -3062,6 +3062,13 @@ Capacitor_SMD
 C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
 Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 capacitor handsolder
+0
+2
+2
+Capacitor_SMD
+C_0402_1005Metricf
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
 0
 2
 2
@@ -87566,6 +87573,13 @@ Resistor_SMD
 R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
 Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 resistor handsolder
+0
+2
+2
+Resistor_SMD
+R_0402_1005Metricf
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
 0
 2
 2
