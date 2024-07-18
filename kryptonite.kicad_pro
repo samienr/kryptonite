@@ -492,7 +492,7 @@
       "idf": "",
       "netlist": "",
       "plot": "manufacturing/gerbers/",
-      "pos_files": "output/",
+      "pos_files": "manufacturing/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -582,6 +582,12 @@
           "label": "Distributer Link",
           "name": "Distributer Link",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -627,7 +633,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "../",
+    "plot_directory": "../../OneDrive/Desktop/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,

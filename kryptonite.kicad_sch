@@ -4839,6 +4839,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 85.09) (xy 67.31 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19027068-375b-46a7-9981-9554eaf0b585")
+	)
+	(wire
+		(pts
 			(xy 256.54 85.09) (xy 256.54 83.82)
 		)
 		(stroke
@@ -4886,6 +4896,16 @@
 			(type default)
 		)
 		(uuid "2290a682-78b9-4593-989a-6b99d70c49df")
+	)
+	(wire
+		(pts
+			(xy 67.31 88.9) (xy 67.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25d4cca1-9175-4528-b2cb-5d1cb030d6f3")
 	)
 	(wire
 		(pts
@@ -5089,6 +5109,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 87.63) (xy 69.85 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "564c16a1-6b8e-431d-ba56-5ecb6dfc6d0b")
+	)
+	(wire
+		(pts
 			(xy 171.45 55.88) (xy 171.45 58.42)
 		)
 		(stroke
@@ -5116,16 +5146,6 @@
 			(type default)
 		)
 		(uuid "5ce237ac-3502-4e1f-ad26-2bddf6a64eb3")
-	)
-	(polyline
-		(pts
-			(xy 53.34 121.92) (xy 53.34 144.78)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "5d089bbf-1e92-4427-a6a0-cbcace7e9da5")
 	)
 	(wire
 		(pts
@@ -5359,6 +5379,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 85.09) (xy 69.85 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944f2ba7-da86-45aa-b7e0-921cd6824fa2")
+	)
+	(wire
+		(pts
 			(xy 120.65 139.7) (xy 123.19 139.7)
 		)
 		(stroke
@@ -5476,16 +5506,6 @@
 			(type default)
 		)
 		(uuid "b1d593b7-b72f-448a-b72e-ae6bfc3f4100")
-	)
-	(polyline
-		(pts
-			(xy 93.98 121.92) (xy 53.34 121.92)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "b35bf4e6-da03-43f7-9c43-3ace929986ff")
 	)
 	(wire
 		(pts
@@ -5749,6 +5769,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 88.9) (xy 67.31 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e844f85f-aec4-4f78-be7c-5f146ae2b520")
+	)
+	(wire
+		(pts
 			(xy 252.73 83.82) (xy 256.54 83.82)
 		)
 		(stroke
@@ -5816,6 +5846,16 @@
 			(type default)
 		)
 		(uuid "fb40c493-5124-4562-8e72-6463d7a37632")
+	)
+	(wire
+		(pts
+			(xy 49.53 83.82) (xy 67.31 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb5ffa50-3d66-4264-bd62-914651d413ae")
 	)
 	(wire
 		(pts
@@ -5963,18 +6003,6 @@
 			(justify left)
 		)
 		(uuid "6afb8e19-2b2c-4b97-bcd1-c8b4dca48738")
-	)
-	(text "ESD protection"
-		(exclude_from_sim no)
-		(at 60.452 120.396 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "6cdf7ed5-6dbb-47a6-8c85-83afa7b19f71")
 	)
 	(text "Power Supply"
 		(exclude_from_sim no)
@@ -6125,6 +6153,17 @@
 		)
 		(uuid "50672bae-c02b-401f-ada9-ce8c47ab8a6b")
 	)
+	(label "USB_CONN_D-"
+		(at 50.8 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "564c0cf2-bf16-4603-9ecd-345059e62426")
+	)
 	(label "SDA"
 		(at 152.4 129.54 180)
 		(fields_autoplaced yes)
@@ -6202,6 +6241,17 @@
 		)
 		(uuid "cb0f9f41-aae5-46e1-ada3-86ee70742e55")
 	)
+	(label "USB_CONN_D+"
+		(at 50.8 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "dca609a5-dcab-4891-b816-4eaf51839566")
+	)
 	(label "LED_A"
 		(at 193.04 78.74 0)
 		(fields_autoplaced yes)
@@ -6223,50 +6273,6 @@
 			(justify left bottom)
 		)
 		(uuid "fa7ad645-05a0-4c90-b659-fc6c7e2284eb")
-	)
-	(global_label "USB_CONN_D+"
-		(shape input)
-		(at 71.12 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "053ebce1-86a0-4c4e-9b5f-52f9832e05d0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.2857 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_CONN_D-"
-		(shape input)
-		(at 71.12 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "44c98af5-e1cd-4e06-b0d4-e3a00687b115")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.2857 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "USB_D-"
 		(shape input)
@@ -6314,7 +6320,7 @@
 	)
 	(global_label "USB_D-"
 		(shape input)
-		(at 81.28 133.35 0)
+		(at 80.01 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6324,7 +6330,7 @@
 		)
 		(uuid "ab87eec8-52f5-4d1c-9f90-7074e859c8c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.8852 133.35 0)
+			(at 90.6152 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6336,7 +6342,7 @@
 	)
 	(global_label "USB_D+"
 		(shape input)
-		(at 81.28 135.89 0)
+		(at 80.01 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6346,51 +6352,7 @@
 		)
 		(uuid "c7e7f998-1401-443e-b1ea-9764cde57c58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.8852 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_CONN_D-"
-		(shape input)
-		(at 49.53 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dc867aa2-9e59-43b3-939c-17ce83263040")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.3643 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_CONN_D+"
-		(shape input)
-		(at 49.53 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f6845215-e40b-46c8-a607-b8979bfde4ae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.3643 88.9 0)
+			(at 90.6152 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6473,6 +6435,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGJ0472TCE"
+			(at 134.62 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25940"
 			(at 134.62 124.46 0)
 			(effects
 				(font
@@ -6567,6 +6538,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "ATECC608B-MAHDA-S"
+			(at 123.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1518773"
 			(at 123.19 132.08 0)
 			(effects
 				(font
@@ -6747,6 +6727,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0402FR-0710KL"
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60490"
 			(at 139.7 78.74 0)
 			(effects
 				(font
@@ -6984,6 +6973,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25940"
+			(at 55.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "672138da-cb8a-4ef2-885f-4735e167a70a")
 		)
@@ -7118,7 +7116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributer Link" ""
+		(property "Distributer Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0402COG330J500AT_C696910.html"
 			(at 135.89 99.06 0)
 			(effects
 				(font
@@ -7127,7 +7125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "CCTC"
 			(at 135.89 99.06 0)
 			(effects
 				(font
@@ -7136,7 +7134,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "TCC0402COG330J500AT"
+			(at 135.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C696910"
 			(at 135.89 99.06 0)
 			(effects
 				(font
@@ -7215,7 +7222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributer Link" ""
+		(property "Distributer Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SANYEAR-C0603X5R106M160NT_C466781.html"
 			(at 26.67 36.83 0)
 			(effects
 				(font
@@ -7224,7 +7231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "SANYEAR"
 			(at 26.67 36.83 0)
 			(effects
 				(font
@@ -7233,7 +7240,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "C0603X5R106M160NT"
+			(at 26.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C466781"
 			(at 26.67 36.83 0)
 			(effects
 				(font
@@ -7459,7 +7475,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 76.2 133.35 0)
+		(at 74.93 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7467,7 +7483,7 @@
 		(dnp no)
 		(uuid "4d2ce4da-2e73-4569-9eaa-3b36501f3446")
 		(property "Reference" "U4"
-			(at 76.454 129.54 0)
+			(at 75.184 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7476,7 +7492,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 76.454 139.954 0)
+			(at 75.184 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7485,7 +7501,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 77.47 139.7 0)
+			(at 76.2 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7496,7 +7512,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 77.47 141.605 0)
+			(at 76.2 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7506,7 +7522,7 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 76.2 133.35 0)
+			(at 74.93 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7515,7 +7531,7 @@
 			)
 		)
 		(property "Distributer Link" "https://www.lcsc.com/product-detail/ESD-and-Surge-Protection-TVS-ESD_STMicroelectronics-USBLC6-2SC6_C7519.html"
-			(at 76.2 133.35 0)
+			(at 74.93 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,7 +7540,7 @@
 			)
 		)
 		(property "Manufacturer" "STMicroelectronics"
-			(at 76.2 133.35 0)
+			(at 74.93 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7533,7 +7549,16 @@
 			)
 		)
 		(property "Manufacturer Part Number" "USBLC6-2SC6"
-			(at 76.2 133.35 0)
+			(at 74.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7519"
+			(at 74.93 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7623,7 +7648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributer Link" ""
+		(property "Distributer Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_HRE-CGA0402X7R104K160GT_C6119799.html"
 			(at 114.3 130.81 0)
 			(effects
 				(font
@@ -7632,7 +7657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "HRE"
 			(at 114.3 130.81 0)
 			(effects
 				(font
@@ -7641,7 +7666,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CGA0402X7R104K160GT"
+			(at 114.3 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119799"
 			(at 114.3 130.81 0)
 			(effects
 				(font
@@ -7744,6 +7778,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C720915"
+			(at 129.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0b00799c-0277-42c0-a0a2-766d5e44ebc4")
 		)
@@ -7838,6 +7881,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "XL-1608SURC-06"
+			(at 207.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965799"
 			(at 207.01 46.99 0)
 			(effects
 				(font
@@ -8046,7 +8098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributer Link" ""
+		(property "Distributer Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_HRE-CGA0402X7R104K160GT_C6119799.html"
 			(at 157.48 62.23 0)
 			(effects
 				(font
@@ -8055,7 +8107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "HRE"
 			(at 157.48 62.23 0)
 			(effects
 				(font
@@ -8064,7 +8116,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CGA0402X7R104K160GT"
+			(at 157.48 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119799"
 			(at 157.48 62.23 0)
 			(effects
 				(font
@@ -8142,7 +8203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributer Link" ""
+		(property "Distributer Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_HRE-CGA0402X7R104K160GT_C6119799.html"
 			(at 147.32 62.23 0)
 			(effects
 				(font
@@ -8151,7 +8212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "HRE"
 			(at 147.32 62.23 0)
 			(effects
 				(font
@@ -8160,7 +8221,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CGA0402X7R104K160GT"
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119799"
 			(at 147.32 62.23 0)
 			(effects
 				(font
@@ -8238,7 +8308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributer Link" ""
+		(property "Distributer Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SANYEAR-C0603X5R106M160NT_C466781.html"
 			(at 54.61 36.83 0)
 			(effects
 				(font
@@ -8247,7 +8317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "SANYEAR"
 			(at 54.61 36.83 0)
 			(effects
 				(font
@@ -8256,7 +8326,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "C0603X5R106M160NT"
+			(at 54.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C466781"
 			(at 54.61 36.83 0)
 			(effects
 				(font
@@ -8354,6 +8433,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "DS1021-1x4SF11-B"
+			(at 212.09 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7430360"
 			(at 212.09 120.65 0)
 			(effects
 				(font
@@ -8597,6 +8685,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60490"
+			(at 256.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "97c5f319-b6f3-4ee0-b047-ab62d9cdcb8a")
 		)
@@ -8666,7 +8763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributer Link" ""
+		(property "Distributer Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_HRE-CGA0402X7R104K160GT_C6119799.html"
 			(at 137.16 62.23 0)
 			(effects
 				(font
@@ -8675,7 +8772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "HRE"
 			(at 137.16 62.23 0)
 			(effects
 				(font
@@ -8684,7 +8781,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CGA0402X7R104K160GT"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119799"
 			(at 137.16 62.23 0)
 			(effects
 				(font
@@ -8762,7 +8868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributer Link" ""
+		(property "Distributer Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_HRE-CGA0402X7R104K160GT_C6119799.html"
 			(at 116.84 62.23 0)
 			(effects
 				(font
@@ -8771,7 +8877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "HRE"
 			(at 116.84 62.23 0)
 			(effects
 				(font
@@ -8780,7 +8886,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CGA0402X7R104K160GT"
+			(at 116.84 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119799"
 			(at 116.84 62.23 0)
 			(effects
 				(font
@@ -8883,6 +8998,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2906961"
+			(at 207.01 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "afc5bf48-41c0-47d9-9c3d-15c69522a3c3")
 		)
@@ -8952,7 +9076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributer Link" ""
+		(property "Distributer Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_HRE-CGA0402X7R104K160GT_C6119799.html"
 			(at 127 62.23 0)
 			(effects
 				(font
@@ -8961,7 +9085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "HRE"
 			(at 127 62.23 0)
 			(effects
 				(font
@@ -8970,7 +9094,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CGA0402X7R104K160GT"
+			(at 127 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119799"
 			(at 127 62.23 0)
 			(effects
 				(font
@@ -9123,7 +9256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "  Korean Hroparts Elec"
+		(property "Manufacturer" "Korean Hroparts Elec"
 			(at 34.29 96.52 0)
 			(effects
 				(font
@@ -9133,6 +9266,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TYPE-C-31-G-01"
+			(at 34.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C530605"
 			(at 34.29 96.52 0)
 			(effects
 				(font
@@ -9358,6 +9500,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TS-1187A-B-A-B"
+			(at 256.54 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C318884"
 			(at 256.54 90.17 0)
 			(effects
 				(font
@@ -9633,7 +9784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributer Link" ""
+		(property "Distributer Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_HRE-CGA0402X7R104K160GT_C6119799.html"
 			(at 125.73 73.66 0)
 			(effects
 				(font
@@ -9642,7 +9793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "HRE"
 			(at 125.73 73.66 0)
 			(effects
 				(font
@@ -9651,7 +9802,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CGA0402X7R104K160GT"
+			(at 125.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119799"
 			(at 125.73 73.66 0)
 			(effects
 				(font
@@ -9729,7 +9889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributer Link" ""
+		(property "Distributer Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SANYEAR-C0603X5R106M160NT_C466781.html"
 			(at 107.95 62.23 0)
 			(effects
 				(font
@@ -9738,7 +9898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "SANYEAR"
 			(at 107.95 62.23 0)
 			(effects
 				(font
@@ -9747,7 +9907,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "C0603X5R106M160NT"
+			(at 107.95 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C466781"
 			(at 107.95 62.23 0)
 			(effects
 				(font
@@ -9773,7 +9942,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 76.2 128.27 0)
+		(at 74.93 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9781,7 +9950,7 @@
 		(dnp no)
 		(uuid "c3239d61-377f-4d94-8b35-6844676aa62d")
 		(property "Reference" "#PWR0115"
-			(at 76.2 132.08 0)
+			(at 74.93 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9790,7 +9959,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 76.2 124.46 0)
+			(at 74.93 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9798,7 +9967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 128.27 0)
+			(at 74.93 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9807,7 +9976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 128.27 0)
+			(at 74.93 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9816,7 +9985,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 76.2 128.27 0)
+			(at 74.93 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9891,7 +10060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributer Link" ""
+		(property "Distributer Link" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0402COG330J500AT_C696910.html"
 			(at 120.65 99.06 0)
 			(effects
 				(font
@@ -9900,7 +10069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "CCTC"
 			(at 120.65 99.06 0)
 			(effects
 				(font
@@ -9909,7 +10078,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "TCC0402COG330J500AT"
+			(at 120.65 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C696910"
 			(at 120.65 99.06 0)
 			(effects
 				(font
@@ -10012,6 +10190,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C39051"
+			(at 40.64 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b19eda4-9c45-4c93-90c0-36f332b32e3d")
 		)
@@ -10032,7 +10219,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 140.97 0)
+		(at 74.93 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10041,7 +10228,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9492583-e08a-4680-83e8-930d1e63cb66")
 		(property "Reference" "#PWR0113"
-			(at 76.2 147.32 0)
+			(at 74.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10050,7 +10237,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 146.05 0)
+			(at 74.93 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10059,7 +10246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 140.97 0)
+			(at 74.93 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10068,7 +10255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 140.97 0)
+			(at 74.93 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10077,7 +10264,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 140.97 0)
+			(at 74.93 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10443,6 +10630,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C92504"
+			(at 173.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "42"
 			(uuid "b5fdcc60-12a2-465b-aa1d-dabc24de060f")
 		)
@@ -10672,6 +10868,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGJ0472TCE"
+			(at 143.51 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25940"
 			(at 143.51 124.46 0)
 			(effects
 				(font
